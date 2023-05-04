@@ -1,14 +1,20 @@
-ul{
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+ul{ margin: 0;
     padding-left: 0;
 }
 .list{
     list-style: none;
 }
 .sale{
+    display: block;
     background-color: rgba(255, 255, 255, 1);
     font-family:'Epilogue',sans-serif ;
     color: #141414;
     padding-bottom: 80px;
+
 }
 .container-sale{
     width: 100%;
@@ -70,6 +76,16 @@ text-transform: uppercase;
 .main-image-sale{
     max-width: 235px;
 }
+.gallery-sale{
+    display: flex;
+    gap:20px;
+}
+.mini-gallery-sale{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
 
 /*-----MOBILE-----*/
 @media screen and (min-width:375px)
@@ -81,7 +97,10 @@ text-transform: uppercase;
 }
 /*----TABLET-----*/
 @media screen and (min-width:768px)
-{  .container-sale{
+{  .sale{
+    padding-bottom: 128px;
+}
+    .container-sale{
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
@@ -111,11 +130,15 @@ line-height: 1.1;
 {
  .sale
  {background-color: rgba(251, 251, 251, 1);
+    padding-bottom: 160px;
+    padding-top: 80px;
+    
 }
 .container-sale{
     width: 1280px;
     padding-left: 132px;
     padding-right: 132px;
+   
    
 }
 }
