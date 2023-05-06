@@ -114,26 +114,29 @@ margin-bottom: 17px;
 
     display: flex;
     gap:20px;
+ 
    
    
 }
 .mini-gallery-sale{
  width: 100%;
- height:auto ;
+ height:auto;
     display: flex;
     flex-direction: column;
     gap:10px;
+    
    
 }
+
 .mini-gallary-list{
     max-width: 80px;
    max-height: 350px;
 }
-.mini-gallery{ 
+.mini-gallery{
+   
     display: block;
     max-height: 80px;
    
-    /* width: 100%; */
   
   }  
 .main-image-sale{
