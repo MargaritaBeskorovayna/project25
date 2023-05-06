@@ -116,31 +116,33 @@ margin-bottom: 17px;
 
 .mini-gallery{ 
    display: block;
-   max-width: 80px;
-   min-width: 80px;
+   max-height: 80px;
+  max-width: 80px;
+
 }
     
     
 
 .main-image-sale{
-    display: flex;
     max-width: 235px;
     max-height: 350px;
+    /* min-width: 0;
+    min-height: 0; */
+    
+}  
 
- 
-   
-}
+
+
 .gallery-sale{
- 
+
     display: flex;
     gap:20px;
 }
 .mini-gallery-sale{
-   
+  
     display: flex;
     flex-direction: column;
-    gap:10px;
- 
+    gap:10px; 
 }
 
 
@@ -227,8 +229,9 @@ line-height: 1.1;
     padding-right: 0;
 }
 .description-sale{
+    max-width: 467px;
     padding-left: 0;
-    padding-right: 66px;
+    padding-right: 98px;
 }
 .title-sale{
     margin-bottom: 80px;
@@ -237,5 +240,8 @@ line-height: 1.1;
     
 margin-top: 0;
 
+}
+.text-sale{
+    max-width: 369px;
 }
 }
